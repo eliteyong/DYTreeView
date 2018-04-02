@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84286DEC2072157A00B1CD06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286DEB2072157A00B1CD06 /* main.m */; };
+		84286DEF2072157A00B1CD06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286DEE2072157A00B1CD06 /* AppDelegate.m */; };
+		84286DF22072157A00B1CD06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286DF12072157A00B1CD06 /* ViewController.m */; };
+		84286DF52072157A00B1CD06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84286DF32072157A00B1CD06 /* Main.storyboard */; };
+		84286DF72072157A00B1CD06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84286DF62072157A00B1CD06 /* Assets.xcassets */; };
+		84286DFA2072157A00B1CD06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84286DF82072157A00B1CD06 /* LaunchScreen.storyboard */; };
+		84286E052072157A00B1CD06 /* DYTreeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286E042072157A00B1CD06 /* DYTreeViewTests.m */; };
+		84286E102072157A00B1CD06 /* DYTreeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84286E0F2072157A00B1CD06 /* DYTreeViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84286E012072157A00B1CD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84286DDF2072157A00B1CD06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84286DE62072157A00B1CD06;
+			remoteInfo = DYTreeView;
+		};
+		84286E0C2072157A00B1CD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84286DDF2072157A00B1CD06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84286DE62072157A00B1CD06;
+			remoteInfo = DYTreeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84286DE72072157A00B1CD06 /* DYTreeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTreeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84286DEB2072157A00B1CD06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84286DED2072157A00B1CD06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84286DEE2072157A00B1CD06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84286DF02072157A00B1CD06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84286DF12072157A00B1CD06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84286DF42072157A00B1CD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84286DF62072157A00B1CD06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84286DF92072157A00B1CD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84286DFB2072157A00B1CD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84286E002072157A00B1CD06 /* DYTreeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTreeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84286E042072157A00B1CD06 /* DYTreeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTreeViewTests.m; sourceTree = "<group>"; };
+		84286E062072157A00B1CD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84286E0B2072157A00B1CD06 /* DYTreeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTreeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84286E0F2072157A00B1CD06 /* DYTreeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYTreeViewUITests.m; sourceTree = "<group>"; };
+		84286E112072157A00B1CD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84286DE42072157A00B1CD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84286DFD2072157A00B1CD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84286E082072157A00B1CD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84286DDE2072157A00B1CD06 = {
+			isa = PBXGroup;
+			children = (
+				84286DE92072157A00B1CD06 /* DYTreeView */,
+				84286E032072157A00B1CD06 /* DYTreeViewTests */,
+				84286E0E2072157A00B1CD06 /* DYTreeViewUITests */,
+				84286DE82072157A00B1CD06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84286DE82072157A00B1CD06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84286DE72072157A00B1CD06 /* DYTreeView.app */,
+				84286E002072157A00B1CD06 /* DYTreeViewTests.xctest */,
+				84286E0B2072157A00B1CD06 /* DYTreeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84286DE92072157A00B1CD06 /* DYTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				84286DED2072157A00B1CD06 /* AppDelegate.h */,
+				84286DEE2072157A00B1CD06 /* AppDelegate.m */,
+				84286DF02072157A00B1CD06 /* ViewController.h */,
+				84286DF12072157A00B1CD06 /* ViewController.m */,
+				84286DF32072157A00B1CD06 /* Main.storyboard */,
+				84286DF62072157A00B1CD06 /* Assets.xcassets */,
+				84286DF82072157A00B1CD06 /* LaunchScreen.storyboard */,
+				84286DFB2072157A00B1CD06 /* Info.plist */,
+				84286DEA2072157A00B1CD06 /* Supporting Files */,
+			);
+			path = DYTreeView;
+			sourceTree = "<group>";
+		};
+		84286DEA2072157A00B1CD06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84286DEB2072157A00B1CD06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84286E032072157A00B1CD06 /* DYTreeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				84286E042072157A00B1CD06 /* DYTreeViewTests.m */,
+				84286E062072157A00B1CD06 /* Info.plist */,
+			);
+			path = DYTreeViewTests;
+			sourceTree = "<group>";
+		};
+		84286E0E2072157A00B1CD06 /* DYTreeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84286E0F2072157A00B1CD06 /* DYTreeViewUITests.m */,
+				84286E112072157A00B1CD06 /* Info.plist */,
+			);
+			path = DYTreeViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84286DE62072157A00B1CD06 /* DYTreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84286E142072157B00B1CD06 /* Build configuration list for PBXNativeTarget "DYTreeView" */;
+			buildPhases = (
+				84286DE32072157A00B1CD06 /* Sources */,
+				84286DE42072157A00B1CD06 /* Frameworks */,
+				84286DE52072157A00B1CD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYTreeView;
+			productName = DYTreeView;
+			productReference = 84286DE72072157A00B1CD06 /* DYTreeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84286DFF2072157A00B1CD06 /* DYTreeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84286E172072157B00B1CD06 /* Build configuration list for PBXNativeTarget "DYTreeViewTests" */;
+			buildPhases = (
+				84286DFC2072157A00B1CD06 /* Sources */,
+				84286DFD2072157A00B1CD06 /* Frameworks */,
+				84286DFE2072157A00B1CD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84286E022072157A00B1CD06 /* PBXTargetDependency */,
+			);
+			name = DYTreeViewTests;
+			productName = DYTreeViewTests;
+			productReference = 84286E002072157A00B1CD06 /* DYTreeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84286E0A2072157A00B1CD06 /* DYTreeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84286E1A2072157B00B1CD06 /* Build configuration list for PBXNativeTarget "DYTreeViewUITests" */;
+			buildPhases = (
+				84286E072072157A00B1CD06 /* Sources */,
+				84286E082072157A00B1CD06 /* Frameworks */,
+				84286E092072157A00B1CD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84286E0D2072157A00B1CD06 /* PBXTargetDependency */,
+			);
+			name = DYTreeViewUITests;
+			productName = DYTreeViewUITests;
+			productReference = 84286E0B2072157A00B1CD06 /* DYTreeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84286DDF2072157A00B1CD06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YDY;
+				TargetAttributes = {
+					84286DE62072157A00B1CD06 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M92V2T43TR;
+						ProvisioningStyle = Automatic;
+					};
+					84286DFF2072157A00B1CD06 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M92V2T43TR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84286DE62072157A00B1CD06;
+					};
+					84286E0A2072157A00B1CD06 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M92V2T43TR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84286DE62072157A00B1CD06;
+					};
+				};
+			};
+			buildConfigurationList = 84286DE22072157A00B1CD06 /* Build configuration list for PBXProject "DYTreeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84286DDE2072157A00B1CD06;
+			productRefGroup = 84286DE82072157A00B1CD06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84286DE62072157A00B1CD06 /* DYTreeView */,
+				84286DFF2072157A00B1CD06 /* DYTreeViewTests */,
+				84286E0A2072157A00B1CD06 /* DYTreeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84286DE52072157A00B1CD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84286DFA2072157A00B1CD06 /* LaunchScreen.storyboard in Resources */,
+				84286DF72072157A00B1CD06 /* Assets.xcassets in Resources */,
+				84286DF52072157A00B1CD06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84286DFE2072157A00B1CD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84286E092072157A00B1CD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84286DE32072157A00B1CD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84286DF22072157A00B1CD06 /* ViewController.m in Sources */,
+				84286DEF2072157A00B1CD06 /* AppDelegate.m in Sources */,
+				84286DEC2072157A00B1CD06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84286DFC2072157A00B1CD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84286E052072157A00B1CD06 /* DYTreeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84286E072072157A00B1CD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84286E102072157A00B1CD06 /* DYTreeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84286E022072157A00B1CD06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84286DE62072157A00B1CD06 /* DYTreeView */;
+			targetProxy = 84286E012072157A00B1CD06 /* PBXContainerItemProxy */;
+		};
+		84286E0D2072157A00B1CD06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84286DE62072157A00B1CD06 /* DYTreeView */;
+			targetProxy = 84286E0C2072157A00B1CD06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84286DF32072157A00B1CD06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84286DF42072157A00B1CD06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84286DF82072157A00B1CD06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84286DF92072157A00B1CD06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84286E122072157B00B1CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84286E132072157B00B1CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84286E152072157B00B1CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M92V2T43TR;
+				INFOPLIST_FILE = DYTreeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.DYTreeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84286E162072157B00B1CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M92V2T43TR;
+				INFOPLIST_FILE = DYTreeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.DYTreeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84286E182072157B00B1CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M92V2T43TR;
+				INFOPLIST_FILE = DYTreeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.DYTreeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTreeView.app/DYTreeView";
+			};
+			name = Debug;
+		};
+		84286E192072157B00B1CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M92V2T43TR;
+				INFOPLIST_FILE = DYTreeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.DYTreeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYTreeView.app/DYTreeView";
+			};
+			name = Release;
+		};
+		84286E1B2072157B00B1CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M92V2T43TR;
+				INFOPLIST_FILE = DYTreeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.DYTreeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYTreeView;
+			};
+			name = Debug;
+		};
+		84286E1C2072157B00B1CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M92V2T43TR;
+				INFOPLIST_FILE = DYTreeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baihe.DYTreeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYTreeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84286DE22072157A00B1CD06 /* Build configuration list for PBXProject "DYTreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84286E122072157B00B1CD06 /* Debug */,
+				84286E132072157B00B1CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84286E142072157B00B1CD06 /* Build configuration list for PBXNativeTarget "DYTreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84286E152072157B00B1CD06 /* Debug */,
+				84286E162072157B00B1CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84286E172072157B00B1CD06 /* Build configuration list for PBXNativeTarget "DYTreeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84286E182072157B00B1CD06 /* Debug */,
+				84286E192072157B00B1CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84286E1A2072157B00B1CD06 /* Build configuration list for PBXNativeTarget "DYTreeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84286E1B2072157B00B1CD06 /* Debug */,
+				84286E1C2072157B00B1CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84286DDF2072157A00B1CD06 /* Project object */;
+}
